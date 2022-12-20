@@ -1,0 +1,4 @@
+com/lambda/io/SQSEventLambdaReadsS3Bucket.class
+com/lambda/io/LambdaExceptions.class
+com/lambda/io/InputObject.class
+com/lambda/io/WelcomeHelloWorld.class

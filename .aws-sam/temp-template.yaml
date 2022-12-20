@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.lambda.io.hello.world.SQSEventLambdaReadsS3Bucket
+      CodeUri: /Users/balajisoundarrajan/Balaji/MyWork/AWS_Course/Workspace/lambda-hello-world
+      Runtime: java11
+      Architectures:
+        - x86_64
